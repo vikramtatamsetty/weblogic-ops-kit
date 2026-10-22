@@ -21,12 +21,12 @@ Built from real incident automation used in enterprise environments.
 
 ## Run with Docker
 ```
-docker build -t wls-ops .
-docker run wls-ops
+docker build -t weblogic-ops-kit .
+docker run weblogic-ops-kit pytest -v
 ```
 
 ## Run tests
 ```
 pip install -r requirements.txt
-pytest
+pytest -v
 ```
